@@ -4,9 +4,15 @@
   "description": "Typescript: The Complete Developer's Guide",
   "main": "index.js",
   "scripts": {
-    "watch": "tsc -w"
+    "start:build": "tsc -w",
+    "start:run": "nodemon build/index.js",
+    "start": "concurrently npm:start:*"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^8.0.1",
+    "nodemon": "^2.0.22"
+  }
 }
