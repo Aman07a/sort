@@ -4,7 +4,6 @@
   "description": "Typescript: The Complete Developer's Guide",
   "main": "index.js",
   "scripts": {
-    "test": "npx parcel index.html",
     "watch": "tsc -w"
   },
   "keywords": [],
