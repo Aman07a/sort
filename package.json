@@ -1,0 +1,13 @@
+{
+  "name": "sort",
+  "version": "1.0.0",
+  "description": "Typescript: The Complete Developer's Guide",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx parcel index.html",
+    "watch": "tsc -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
