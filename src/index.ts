@@ -1,7 +1,5 @@
 class Sorter {
-  constructor(public collection: number[]) {
-    this.collection = collection;
-  }
+  constructor(public collection: string[]) {}
 
   sort(): void {
     const { length } = this.collection;
